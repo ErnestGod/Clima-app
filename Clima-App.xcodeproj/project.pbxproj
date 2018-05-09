@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		96150DF520A3A5B200F1EAD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96150DF420A3A5B200F1EAD6 /* AppDelegate.swift */; };
-		96150DF720A3A5B200F1EAD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96150DF620A3A5B200F1EAD6 /* ViewController.swift */; };
 		96150DFA20A3A5B200F1EAD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96150DF820A3A5B200F1EAD6 /* Main.storyboard */; };
 		96150DFC20A3A5B300F1EAD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96150DFB20A3A5B300F1EAD6 /* Assets.xcassets */; };
 		96150DFF20A3A5B300F1EAD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96150DFD20A3A5B300F1EAD6 /* LaunchScreen.storyboard */; };
+		96150E1120A3A77800F1EAD6 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96150E1020A3A77800F1EAD6 /* WeatherDataModel.swift */; };
+		96150E1420A3A7DF00F1EAD6 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96150E1320A3A7DF00F1EAD6 /* WeatherViewController.swift */; };
+		96150E1620A3A7F600F1EAD6 /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96150E1520A3A7F600F1EAD6 /* ChangeCityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96150DF120A3A5B200F1EAD6 /* Clima-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clima-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96150DF420A3A5B200F1EAD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96150DF620A3A5B200F1EAD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96150DF920A3A5B200F1EAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96150DFB20A3A5B300F1EAD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96150DFE20A3A5B300F1EAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96150E0020A3A5B300F1EAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96150E1020A3A77800F1EAD6 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		96150E1320A3A7DF00F1EAD6 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		96150E1520A3A7F600F1EAD6 /* ChangeCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		96150DF320A3A5B200F1EAD6 /* Clima-App */ = {
 			isa = PBXGroup;
 			children = (
-				96150DF420A3A5B200F1EAD6 /* AppDelegate.swift */,
-				96150DF620A3A5B200F1EAD6 /* ViewController.swift */,
-				96150DF820A3A5B200F1EAD6 /* Main.storyboard */,
+				96150E0720A3A5E000F1EAD6 /* Model */,
+				96150E0620A3A5CE00F1EAD6 /* Views */,
+				96150E1220A3A78E00F1EAD6 /* Controller */,
 				96150DFB20A3A5B300F1EAD6 /* Assets.xcassets */,
 				96150DFD20A3A5B300F1EAD6 /* LaunchScreen.storyboard */,
 				96150E0020A3A5B300F1EAD6 /* Info.plist */,
 			);
 			path = "Clima-App";
+			sourceTree = "<group>";
+		};
+		96150E0620A3A5CE00F1EAD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96150DF820A3A5B200F1EAD6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96150E0720A3A5E000F1EAD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96150E1020A3A77800F1EAD6 /* WeatherDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96150E1220A3A78E00F1EAD6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96150DF420A3A5B200F1EAD6 /* AppDelegate.swift */,
+				96150E1320A3A7DF00F1EAD6 /* WeatherViewController.swift */,
+				96150E1520A3A7F600F1EAD6 /* ChangeCityViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96150DF720A3A5B200F1EAD6 /* ViewController.swift in Sources */,
+				96150E1120A3A77800F1EAD6 /* WeatherDataModel.swift in Sources */,
+				96150E1420A3A7DF00F1EAD6 /* WeatherViewController.swift in Sources */,
 				96150DF520A3A5B200F1EAD6 /* AppDelegate.swift in Sources */,
+				96150E1620A3A7F600F1EAD6 /* ChangeCityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +311,7 @@
 		96150E0420A3A5B300F1EAD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6J7V5A9NR;
 				INFOPLIST_FILE = "Clima-App/Info.plist";
@@ -290,14 +322,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ernestgodlewski.Clima-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		96150E0520A3A5B300F1EAD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6J7V5A9NR;
 				INFOPLIST_FILE = "Clima-App/Info.plist";
@@ -308,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ernestgodlewski.Clima-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

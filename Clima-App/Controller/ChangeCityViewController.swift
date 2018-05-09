@@ -21,7 +21,13 @@ class ChangeCityViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBOutlet weak var changeCityTextField: UITextField!
+    
+    
+    @IBAction func getWeatherPressed(_ sender: AnyObject) {
+    }
+    
+    
     /*
     // MARK: - Navigation
 
@@ -31,5 +37,9 @@ class ChangeCityViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    
+    @IBAction func backButtonPressed(_ sender: AnyObject) {
+    }
+    
 }
