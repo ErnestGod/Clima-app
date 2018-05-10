@@ -9,27 +9,82 @@
 import UIKit
 
 class WeatherViewController: UIViewController {
-
+    
+    let WEATHER_URL = "..."
+    let APP_ID = "..."
+    
+    //TODO: Declare instance variables here
+    
+    
+    
+    @IBOutlet weak var weatherIcon: UIImageView!
+    @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var temperatureLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        //TODO:Set up the location manager here.
+        
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    //MARK: - Networking
+    /***************************************************************/
+    
+    
+    //Write the getWeatherData method here:
+    
+    
+    
+    
+    
+    
+    
+    //MARK: - JSON Parsing
+    /***************************************************************/
+    
+    
+    //Write the updateWeatherData method here:
+    
+    
+    
+    
+    
+    //MARK: - UI Updates
+    /***************************************************************/
+    
+    
+    //Write the updateUIWithWeatherData method here:
+    
+    
+    
+    
+    
+    
+    //MARK: - Location Manager Delegate Methods
+    /***************************************************************/
+    
+    
+    //Write the didUpdateLocations method here:
+    
+    
+    
+    //Write the didFailWithError method here:
+    
+    
+    
+    
+    
+    //MARK: - Change City Delegate methods
+    /***************************************************************/
+    
+    
+    //Write the userEnteredANewCityName Delegate method here:
+    
+    
+    
+    //Write the PrepareForSegue Method here
+    
 }

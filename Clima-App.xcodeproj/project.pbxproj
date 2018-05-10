@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				96150E0720A3A5E000F1EAD6 /* Model */,
-				96150E0620A3A5CE00F1EAD6 /* Views */,
+				96150E0620A3A5CE00F1EAD6 /* View */,
 				96150E1220A3A78E00F1EAD6 /* Controller */,
 				96150DFB20A3A5B300F1EAD6 /* Assets.xcassets */,
 				96150DFD20A3A5B300F1EAD6 /* LaunchScreen.storyboard */,
@@ -68,12 +68,12 @@
 			path = "Clima-App";
 			sourceTree = "<group>";
 		};
-		96150E0620A3A5CE00F1EAD6 /* Views */ = {
+		96150E0620A3A5CE00F1EAD6 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				96150DF820A3A5B200F1EAD6 /* Main.storyboard */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 		96150E0720A3A5E000F1EAD6 /* Model */ = {
