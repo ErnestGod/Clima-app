@@ -55,13 +55,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9603617820B33FB2003354B0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		96150DE820A3A5B200F1EAD6 = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +83,6 @@
 				96150DFB20A3A5B300F1EAD6 /* Assets.xcassets */,
 				96150DFD20A3A5B300F1EAD6 /* LaunchScreen.storyboard */,
 				96150E0020A3A5B300F1EAD6 /* Info.plist */,
-				9603617820B33FB2003354B0 /* Supporting Files */,
 			);
 			path = "Clima-App";
 			sourceTree = "<group>";
